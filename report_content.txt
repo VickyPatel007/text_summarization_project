@@ -1,0 +1,29 @@
+PROJECT TITLE
+Text Summarization Using Transformer-Based Deep Learning
+
+ABSTRACT
+This project develops an automatic text summarization system using Natural Language Processing and Transformer-based deep learning. The system accepts a long document and produces a concise summary containing the most important information. A pretrained BART-based model is used for practical inference, while the training pipeline can fine-tune the model on the CNN/DailyMail dataset. ROUGE metrics are used to evaluate generated summaries against human-written reference summaries.
+
+PROBLEM STATEMENT
+Reading long documents manually is time-consuming. The objective is to develop an AI system capable of automatically generating concise and meaningful summaries while retaining important information.
+
+OBJECTIVES
+1. Study automatic text summarization.
+2. Understand extractive and abstractive summarization.
+3. Implement a Transformer-based summarization model.
+4. Use the CNN/DailyMail dataset.
+5. Fine-tune a pretrained model.
+6. Evaluate the system using ROUGE.
+7. Provide a simple web interface for demonstration.
+
+METHODOLOGY
+The dataset contains news articles and reference summaries. Articles are cleaned and tokenized. The Transformer model processes the article using attention mechanisms and generates a summary token by token. During evaluation, generated summaries are compared with reference summaries using ROUGE-1, ROUGE-2 and ROUGE-L.
+
+TECHNOLOGIES
+Python, PyTorch, Hugging Face Transformers, Hugging Face Datasets, ROUGE, Flask.
+
+EXPECTED RESULT
+The system should produce short summaries that preserve the central meaning of the input document. The pretrained model can be demonstrated immediately, while fine-tuning can improve domain-specific performance.
+
+CONCLUSION
+Transformer architectures provide an effective approach for abstractive text summarization. The developed system demonstrates how pretrained language models can be integrated with NLP datasets, evaluation metrics and a web application to create a complete AI project.

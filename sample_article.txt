@@ -1,0 +1,12 @@
+Artificial intelligence is rapidly changing the way organizations process information. 
+Modern natural language processing systems can read large collections of documents and identify important 
+information in seconds. One important application is automatic text summarization. Instead of requiring a 
+person to read an entire article, a summarization model can generate a shorter version containing the main 
+ideas. Transformer architectures have become especially effective for this task because attention mechanisms 
+allow the model to consider relationships between words and sentences. Models such as BART and T5 can produce 
+abstractive summaries, meaning that they are able to generate new sentences rather than simply copying 
+sentences from the source. Automatic summarization is useful in news aggregation, research, customer support, 
+legal document analysis, and many other areas. However, a good summarization system must preserve important 
+facts while avoiding unnecessary details and repetition. Evaluation metrics such as ROUGE can be used to 
+compare generated summaries with human-written reference summaries. The goal of this project is to build 
+and evaluate a Transformer-based text summarization system using the CNN/DailyMail dataset.
